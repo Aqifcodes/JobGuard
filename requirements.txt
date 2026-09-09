@@ -1,24 +1,22 @@
-# Input processing
+# Input Processing
 httpx>=0.27
 beautifulsoup4>=4.12
 Pillow>=10.0
 PyMuPDF>=1.24
 pytesseract>=0.3.10
+
+# Web Application
 Flask>=3.0
+gunicorn>=22.0
 
 # Data / Machine Learning
 numpy
 scikit-learn
 joblib
 
-
 # NLP / Embeddings
 sentence-transformers
 
-# RAG / Vector Search
-qdrant-client
-
 # Google Gemini API - Gate 5
 google-genai
-
 python-dotenv>=1.0.0

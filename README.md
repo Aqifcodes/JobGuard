@@ -491,7 +491,7 @@ A user selects:
 
 ```text
 Role: Backend Developer
-Location: Bangalore
+Location: Hyderabad
 Experience: 1–3 years
 ```
 
