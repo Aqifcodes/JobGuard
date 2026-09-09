@@ -1,0 +1,142 @@
+[
+  {
+    "id": "KB001",
+    "title": "Recruitment scams involving upfront fees",
+    "content": "Fraudulent recruitment schemes may ask candidates to pay registration fees, application fees, interview fees, processing fees, training fees, security deposits, or joining fees before employment begins. Legitimate employers generally do not require candidates to pay money simply to obtain a job.",
+    "scam_type": "upfront_payment",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB002",
+    "title": "UPI payment requests during recruitment",
+    "content": "Job scammers in India may ask candidates to transfer money through UPI during a supposed recruitment process. Requests may be described as verification charges, registration payments, refundable deposits, interview charges, or onboarding payments. A recruitment request involving a personal UPI transfer should be treated as an important warning sign requiring verification.",
+    "scam_type": "upi_scam",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB003",
+    "title": "Requests for UPI PIN or OTP",
+    "content": "A genuine recruitment process should not require a candidate to disclose an OTP, UPI PIN, ATM PIN, password, CVV, or other banking authentication credential. Requests for such credentials can indicate an attempt to obtain access to financial accounts.",
+    "scam_type": "banking_credential_request",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB004",
+    "title": "Requests for sensitive identity information",
+    "content": "Recruitment processes can require legitimate identity or qualification documents in appropriate circumstances, but unusual requests for sensitive information should be independently verified. Job scams may misuse Aadhaar details, PAN information, bank account information, or identity documents.",
+    "scam_type": "identity_information",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB005",
+    "title": "Guaranteed employment claims",
+    "content": "Recruitment messages promising guaranteed selection, guaranteed placement, or a guaranteed job regardless of interview or qualification can be associated with fraudulent recruitment schemes. Employment normally depends on an employer's selection process and eligibility requirements.",
+    "scam_type": "guaranteed_job",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB006",
+    "title": "Selection without a normal hiring process",
+    "content": "Candidates may receive messages claiming they have been selected immediately without a meaningful interview, assessment, or application process. Such claims can occur in fake recruitment schemes where the supposed selection is used to create trust before requesting money or sensitive information.",
+    "scam_type": "selected_without_interview",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB007",
+    "title": "WhatsApp-only recruitment",
+    "content": "Recruitment conducted entirely through WhatsApp does not by itself prove fraud. However, scammers may use WhatsApp to impersonate recruiters, conduct fake interviews, send payment instructions, or avoid normal company recruitment channels. The claimed employer and recruitment details should therefore be independently verified.",
+    "scam_type": "whatsapp_recruitment",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB008",
+    "title": "Telegram recruitment scams",
+    "content": "Telegram can be used for legitimate communication, but fraudulent recruitment schemes may move candidates to Telegram for fake interviews, payment requests, or task-based employment scams. A Telegram-based recruitment conversation should be evaluated together with the claimed employer and other available evidence.",
+    "scam_type": "telegram_recruitment",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB009",
+    "title": "Urgency and pressure in recruitment",
+    "content": "Recruitment scams may create artificial urgency by claiming that payment must be made immediately, that only a limited number of positions remain, or that an offer will expire within a short period. Pressure can reduce the candidate's opportunity to independently verify the employer.",
+    "scam_type": "urgency_pressure",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB010",
+    "title": "Unusually high income claims",
+    "content": "Some fraudulent job offers advertise unusually high or guaranteed earnings for applicants with little experience or few qualifications. Compensation should be evaluated in the context of the role, required skills, employer, location, and normal market conditions.",
+    "scam_type": "unrealistic_income",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB011",
+    "title": "Fake interview schemes",
+    "content": "Fraudulent recruiters may create convincing but unofficial interview processes using messaging applications, unofficial meeting accounts, or unusual communication channels. Fake interviews may later be followed by requests for money, identity documents, or other sensitive information.",
+    "scam_type": "fake_interview",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB012",
+    "title": "Fake document verification",
+    "content": "A scammer may claim that a candidate's documents require urgent verification and direct the candidate to an unofficial or suspicious link. Requests to upload identity or qualification documents should be checked against the employer's legitimate recruitment channels.",
+    "scam_type": "fake_document_verification",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB013",
+    "title": "Refundable security deposit scams",
+    "content": "Some fraudulent job offers describe an upfront payment as a refundable security deposit that will supposedly be returned after joining or completing verification. The promise of a refund does not make an upfront recruitment payment legitimate.",
+    "scam_type": "security_deposit",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB014",
+    "title": "Fake internship recruitment",
+    "content": "Fraudulent internship schemes may promise guaranteed internships, certificates, placement opportunities, or unusually high stipends while requesting registration, training, documentation, or onboarding payments from applicants.",
+    "scam_type": "fake_internship",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB015",
+    "title": "Fake campus recruitment",
+    "content": "Scammers may impersonate companies, placement agencies, or campus recruitment representatives and contact students with fake hiring drives. Verification through the educational institution and the employer's official recruitment channel can help distinguish legitimate recruitment from impersonation.",
+    "scam_type": "fake_campus_recruitment",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB016",
+    "title": "Recruiter impersonation",
+    "content": "A scammer may impersonate an employee, HR representative, recruitment agency, or company representative. The existence of a real company does not prove that an individual contacting a candidate is genuinely associated with that company.",
+    "scam_type": "recruiter_impersonation",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB017",
+    "title": "Generic email accounts in recruitment",
+    "content": "Recruiters may sometimes use generic email services for legitimate reasons, so a Gmail, Yahoo, or Outlook address is not by itself evidence of fraud. However, when a generic address is combined with other unusual recruitment behavior, independent verification becomes more important.",
+    "scam_type": "generic_email",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB018",
+    "title": "Legitimate recruitment payment distinction",
+    "content": "A recruitment message explicitly stating that applicants do not need to pay an application or interview fee is different from a message requesting an upfront recruitment payment. Retrieval should preserve this distinction because semantic similarity alone should not convert every mention of fees into evidence of fraud.",
+    "scam_type": "legitimate_recruitment_context",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB019",
+    "title": "Work-from-home recruitment scams",
+    "content": "Work-from-home job scams may advertise easy work, high earnings, flexible schedules, or guaranteed income while later requesting registration payments, deposits, purchases, or personal information. The work arrangement should be evaluated together with the employer and recruitment process.",
+    "scam_type": "work_from_home_scam",
+    "source": "Indian job scam knowledge base"
+  },
+  {
+    "id": "KB020",
+    "title": "Safe recruitment verification practice",
+    "content": "Candidates should independently verify the employer, recruiter identity, official company website, recruitment domain, job listing, and communication channel before sharing sensitive information or making payments. Evidence from multiple independent sources is stronger than relying only on the claims made inside a recruitment message.",
+    "scam_type": "verification_practice",
+    "source": "Indian job scam knowledge base"
+  }
+]

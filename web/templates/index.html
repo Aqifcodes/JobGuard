@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JobGuard — Check Before You Apply</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="app-shell">
+
+    <header class="navbar">
+        <a href="/" class="brand">
+            <div class="brand-mark">
+                <span>J</span>
+            </div>
+            <div>
+                <div class="brand-name">JobGuard</div>
+                <div class="brand-subtitle">Job Opportunity Verification and Find Jobs</div>
+            </div>
+        </a>
+
+        <nav class="nav-links">
+            <a href="#how-it-works">How it works</a>
+            <a href="#about">About</a>
+            <a href="#jobDiscovery" class="primary-button">
+    Find Jobs →
+</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="eyebrow">
+                    <span class="eyebrow-dot"></span>
+                    Built for safer job searching
+                </div>
+
+                <h1>
+                    Check a job<br>
+                    <span>before you trust it.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Analyze job postings, recruiter messages, documents and job links for signs of recruitment fraud.
+                </p>
+
+                <button class="primary-button hero-button" id="startCheckBtn">
+                    Check a Job
+                    <span class="button-arrow">→</span>
+                </button>
+
+                <div class="hero-note">
+                    <span>✓</span> Evidence-based analysis
+                    <span class="separator">•</span>
+                    <span>✓</span> Indian job scam focus
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="assessment-preview">
+                    <div class="preview-top">
+                        <div>
+                            <div class="preview-label">JOBGUARD REVIEW</div>
+                            <div class="preview-title">Job Opportunity</div>
+                        </div>
+                        <div class="preview-status">
+                            <span class="status-dot"></span>
+                            Ready to check
+                        </div>
+                    </div>
+
+                    <div class="review-intro">
+                        <div class="review-intro-title">Understand the signals behind a job</div>
+                        <div class="review-intro-copy">
+                            JobGuard examines the information available to help you make a more informed decision before you apply.
+                        </div>
+                    </div>
+
+                    <div class="preview-divider"></div>
+
+                    <div class="preview-findings">
+                        <div class="finding">
+                            <span class="finding-icon">✓</span>
+                            <span>Job details and recruitment signals reviewed</span>
+                        </div>
+                        <div class="finding">
+                            <span class="finding-icon">✓</span>
+                            <span>Company and recruiter information checked</span>
+                        </div>
+                        <div class="finding">
+                            <span class="finding-icon">✓</span>
+                            <span>Multiple sources of evidence considered</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="floating-badge badge-one">
+                    <span>✓</span> Evidence checked
+                </div>
+
+                <div class="floating-badge badge-two">
+                    <span>AI</span> Context-aware reasoning
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB CHECKER -->
+        <section class="checker-section" id="checker">
+            <div class="section-heading">
+                <div>
+                    <div class="section-kicker">JOB CHECK</div>
+                    <h2>What would you like to check?</h2>
+                    <p>Give JobGuard the job information you have. We'll analyze it and explain what we find.</p>
+                </div>
+            </div>
+
+            <div class="input-type-grid">
+                <button class="input-type-card active" data-type="text">
+                    <div class="input-card-icon">Aa</div>
+                    <div class="input-card-content">
+                        <strong>Paste Text</strong>
+                        <span>Job posting or recruiter message</span>
+                    </div>
+                    <span class="card-check">✓</span>
+                </button>
+
+                <button class="input-type-card" data-type="image">
+                    <div class="input-card-icon">◫</div>
+                    <div class="input-card-content">
+                        <strong>Upload Image</strong>
+                        <span>Screenshot or job advertisement</span>
+                    </div>
+                    <span class="card-check">✓</span>
+                </button>
+
+                <button class="input-type-card" data-type="document">
+                    <div class="input-card-icon">□</div>
+                    <div class="input-card-content">
+                        <strong>Upload Document</strong>
+                        <span>PDF, DOCX or text document</span>
+                    </div>
+                    <span class="card-check">✓</span>
+                </button>
+
+                <button class="input-type-card" data-type="url">
+                    <div class="input-card-icon">↗</div>
+                    <div class="input-card-content">
+                        <strong>Job URL</strong>
+                        <span>Link to an online job posting</span>
+                    </div>
+                    <span class="card-check">✓</span>
+                </button>
+            </div>
+
+            <!-- TEXT PANEL -->
+            <div class="input-panel" id="textPanel">
+                <div class="panel-header">
+                    <div>
+                        <strong>Paste the job details</strong>
+                        <span>Include the description, recruiter message, company details or offer information.</span>
+                    </div>
+                    <span class="input-counter" id="charCounter">0 characters</span>
+                </div>
+                <textarea id="jobText" name="text" placeholder="Paste the job posting or recruiter message here..." maxlength="15000"></textarea>
+            </div>
+
+            <!-- FILE PANEL -->
+            <div class="input-panel hidden" id="filePanel">
+                <div class="upload-zone" id="uploadZone">
+                    <input type="file" id="fileInput" hidden>
+                    <div class="upload-icon">↑</div>
+                    <strong id="uploadTitle">Drop your file here</strong>
+                    <span id="uploadDescription">or click to browse from your device</span>
+                    <small id="uploadFormats">PNG, JPG, JPEG</small>
+                </div>
+
+                <div class="selected-file hidden" id="selectedFile">
+                    <div class="file-symbol">□</div>
+                    <div class="file-info">
+                        <strong id="fileName"></strong>
+                        <span id="fileSize"></span>
+                    </div>
+                    <button type="button" id="removeFile">×</button>
+                </div>
+            </div>
+
+            <!-- URL PANEL -->
+            <div class="input-panel hidden" id="urlPanel">
+                <div class="url-input-wrapper">
+                    <span class="url-prefix">https://</span>
+                    <input type="text" id="jobUrl" placeholder="example.com/jobs/data-analyst">
+                </div>
+                <p class="field-note">Enter the URL of the job posting you want to investigate.</p>
+            </div>
+
+            <!-- ANALYZE -->
+            <div class="analyze-row">
+                <div class="privacy-note">
+                    <span>✓</span> Your input is used only for this investigation.
+                </div>
+                <button class="primary-button analyze-button" id="analyzeBtn">
+                    Analyze Job
+                    <span class="button-arrow">→</span>
+                </button>
+            </div>
+
+            <!-- LOADING -->
+            <div class="analysis-loading hidden" id="loadingState">
+                <div class="loading-spinner"></div>
+                <div>
+                    <strong>Analyzing this opportunity...</strong>
+                    <span>Checking the available evidence and preparing your assessment.</span>
+                </div>
+            </div>
+
+            <!-- ERROR -->
+            <div class="error-box hidden" id="errorBox">
+                <span class="error-icon">!</span>
+                <div>
+                    <strong>We couldn't analyze this yet.</strong>
+                    <span id="errorMessage">Please check your input and try again.</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOB DISCOVERY -->
+          <section class="job-discovery-card" id="jobDiscovery">
+            <div class="job-discovery-content">
+                <span class="section-badge">JOB DISCOVERY</span>
+                <h2>Looking for a job?</h2>
+                <p>Find relevant opportunities from trusted job sources and apply through the original job listing.</p>
+                <button type="button" class="primary-button" id="findJobsBtn">Find Jobs</button>
+            </div>
+        </section>
+
+        <!-- JOB SEARCH MODAL OVERLAY -->
+         
+        <div id="jobSearchModal" class="modal-overlay" hidden>
+            <div id="jobSearchPanel" class="job-search-panel">
+                <button type="button" id="closeJobSearchBtn" class="close-modal-btn" aria-label="Close">&times;</button>
+                <div class="job-search-header">
+                    <h2>Find your next opportunity</h2>
+                    <p>Select the type of job you're looking for.</p>
+                </div>
+
+                <div class="job-search-form">
+                    <div class="form-group">
+                        <label for="jobRole">What type of job are you looking for?</label>
+                        <select id="jobRole">
+                            <option value="">Select a role</option>
+                            <option value="Data Scientist">Data Scientist</option>
+                            <option value="Data Analyst">Data Analyst</option>
+                            <option value="Machine Learning Engineer">Machine Learning Engineer</option>
+                            <option value="AI Engineer">AI Engineer</option>
+                            <option value="Software Engineer">Software Engineer</option>
+                            <option value="Python Developer">Python Developer</option>
+                            <option value="Java Developer">Java Developer</option>
+                            <option value="Web Developer">Web Developer</option>
+                            <option value="Frontend Developer">Frontend Developer</option>
+                            <option value="Backend Developer">Backend Developer</option>
+                            <option value="Full Stack Developer">Full Stack Developer</option>
+                            <option value="DevOps Engineer">DevOps Engineer</option>
+                            <option value="Cloud Engineer">Cloud Engineer</option>
+                            <option value="Cybersecurity Analyst">Cybersecurity Analyst</option>
+                            <option value="Business Analyst">Business Analyst</option>
+                            <option value="Product Manager">Product Manager</option>
+                            <option value="UI UX Designer">UI/UX Designer</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                            <option value="HR">Human Resources</option>
+                            <option value="Finance">Finance</option>
+                            <option value="Internship">Internship</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jobLocation">Location</label>
+                        <select id="jobLocation">
+                            <option value="">Anywhere in India</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Bangalore">Bangalore</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Mumbai">Mumbai</option>
+                            <option value="Pune">Pune</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Gurgaon">Gurgaon</option>
+                            <option value="Noida">Noida</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Remote">Remote</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="jobExperience">Experience</label>
+                        <select id="jobExperience">
+                            <option value="">Any experience</option>
+                            <option value="Fresher">Fresher</option>
+                            <option value="0-1 years">0–1 years</option>
+                            <option value="1-3 years">1–3 years</option>
+                            <option value="3-5 years">3–5 years</option>
+                            <option value="5+ years">5+ years</option>
+                        </select>
+                    </div>
+
+                    <button type="button" class="primary-button" id="searchJobsBtn">Search Jobs</button>
+                </div>
+
+                <div id="jobSearchError" class="error-message hidden" hidden></div>
+                <div id="jobSearchLoading" class="loading-message hidden" hidden>Finding relevant jobs...</div>
+            </div>
+        </div>
+
+        <!-- HOW IT WORKS -->
+        <section class="how-section" id="how-it-works">
+            <div class="section-kicker">HOW IT WORKS</div>
+            <h2>A second opinion before you apply.</h2>
+            <p class="section-description">
+                JobGuard combines multiple sources of evidence instead of relying on a single signal.
+            </p>
+
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <h3>Give us the job</h3>
+                    <p>Paste the posting, upload a screenshot or document, or provide the job URL.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <h3>Evidence is investigated</h3>
+                    <p>The system examines scam signals, job patterns, identity information and available external evidence.</p>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <h3>Get a clear assessment</h3>
+                    <p>You'll see the risk assessment, reasons behind it and practical next steps.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FOOTER -->
+        <footer id="about">
+            <div class="footer-brand">
+                <div class="brand-mark small">
+                    <span>J</span>
+                </div>
+                <div>
+                    <strong>JobGuard</strong>
+                    <span>Job Scam Detection</span>
+                </div>
+            </div>
+            <div class="footer-copy">
+                Built to help job seekers make more informed decisions.
+            </div>
+        </footer>
+
+    </main>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/app.js') }}"></script>
+<script src="{{ url_for('static', filename='js/jobs.js') }}"></script>
+
+</body>
+</html>

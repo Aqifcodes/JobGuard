@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>JobGuard — Risk Assessment</title>
+
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+
+    <style>
+
+        /* =====================================================
+           RESULTS PAGE
+        ===================================================== */
+
+        .results-page {
+            min-height: 100vh;
+            padding: 48px 20px 80px;
+        }
+
+
+        .results-container {
+            width: min(1000px, 100%);
+            margin: 0 auto;
+        }
+
+
+        .results-topbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+            gap: 20px;
+        }
+
+
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+        /* =====================================================
+           ASSESSMENT
+        ===================================================== */
+
+        .assessment-card {
+            border-radius: 24px;
+            padding: 36px;
+            margin-bottom: 24px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            background: #ffffff;
+        }
+
+
+        .assessment-label {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            opacity: 0.55;
+            margin-bottom: 12px;
+        }
+
+
+        .assessment-title {
+            font-size: clamp(34px, 6vw, 56px);
+            line-height: 1;
+            margin: 0 0 18px;
+            font-weight: 800;
+            letter-spacing: -0.04em;
+        }
+
+
+        .assessment-title.suspicious {
+            color: #b42318;
+        }
+
+
+        .assessment-title.safe {
+            color: #18794e;
+        }
+
+
+        .assessment-title.inconclusive {
+            color: #9a6700;
+        }
+
+
+        .assessment-description {
+            font-size: 17px;
+            line-height: 1.6;
+            max-width: 720px;
+            margin: 0;
+            opacity: 0.72;
+        }
+
+
+        /* =====================================================
+           CONFIDENCE
+        ===================================================== */
+
+        .confidence-wrapper {
+            margin-top: 28px;
+        }
+
+
+        .confidence-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 9px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+
+        .confidence-bar {
+            width: 100%;
+            height: 9px;
+            background: #eeeeee;
+            border-radius: 999px;
+            overflow: hidden;
+        }
+
+
+        .confidence-fill {
+            height: 100%;
+            width: 0%;
+            border-radius: inherit;
+            transition: width 0.7s ease;
+        }
+
+
+        .confidence-fill.suspicious {
+            background: #d64545;
+        }
+
+
+        .confidence-fill.safe {
+            background: #2d9b68;
+        }
+
+
+        .confidence-fill.inconclusive {
+            background: #d49b22;
+        }
+
+
+        /* =====================================================
+           TWO RESULT CARDS
+        ===================================================== */
+
+        .result-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 24px;
+        }
+
+
+        .result-section {
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            border-radius: 22px;
+            padding: 28px;
+        }
+
+
+        .section-heading {
+            margin: 0 0 20px;
+            font-size: 21px;
+            font-weight: 750;
+            letter-spacing: -0.02em;
+        }
+
+
+        .result-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+
+        .result-list li {
+            position: relative;
+            padding: 13px 0 13px 25px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+            line-height: 1.55;
+        }
+
+
+        .result-list li:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+
+        .result-list li:first-child {
+            padding-top: 0;
+        }
+
+
+        .result-list li::before {
+            content: "";
+            position: absolute;
+            left: 2px;
+            top: 21px;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: currentColor;
+        }
+
+
+        .result-list li:first-child::before {
+            top: 8px;
+        }
+
+
+        .reasoning-list {
+            color: #333333;
+        }
+
+
+        .recommendation-list {
+            color: #1d6f4c;
+        }
+
+
+        .empty-state {
+            opacity: 0.55;
+            line-height: 1.5;
+        }
+
+
+        /* =====================================================
+           ACTION
+        ===================================================== */
+
+        .results-actions {
+            display: flex;
+            justify-content: center;
+            margin-top: 32px;
+        }
+
+
+        .new-analysis-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+        /* =====================================================
+           JOB DISCOVERY
+        ===================================================== */
+
+        .results-job-discovery {
+            margin-top: 48px;
+            padding: 42px 32px;
+            border-radius: 24px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            background: #ffffff;
+            text-align: center;
+        }
+
+
+        .results-job-discovery-content {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+
+        .results-job-discovery h2 {
+            margin: 14px 0 10px;
+            font-size: clamp(28px, 5vw, 40px);
+            letter-spacing: -0.03em;
+        }
+
+
+        .results-job-discovery p {
+            margin: 0 auto 24px;
+            max-width: 600px;
+            line-height: 1.6;
+            opacity: 0.7;
+        }
+
+
+        .results-job-discovery .primary-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+
+
+        /* =====================================================
+           ERROR
+        ===================================================== */
+
+        .error-result {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+
+        .error-result h2 {
+            margin-bottom: 10px;
+        }
+
+
+        .error-result p {
+            opacity: 0.65;
+            margin-bottom: 25px;
+        }
+
+
+        /* =====================================================
+           MOBILE
+        ===================================================== */
+
+        @media (max-width: 760px) {
+
+            .results-page {
+                padding: 28px 16px 60px;
+            }
+
+
+            .assessment-card {
+                padding: 25px;
+            }
+
+
+            .result-grid {
+                grid-template-columns: 1fr;
+            }
+
+
+            .results-topbar {
+                align-items: flex-start;
+            }
+
+
+            .results-job-discovery {
+                padding: 32px 22px;
+                margin-top: 36px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <div class="results-page">
+
+        <div class="results-container">
+
+
+            <!-- =================================================
+                 TOP BAR
+            ================================================== -->
+
+            <div class="results-topbar">
+
+                <a
+                    href="/"
+                    class="back-button"
+                >
+                    ← Check another job
+                </a>
+
+
+                <div>
+                    JobGuard
+                </div>
+
+            </div>
+
+
+            <!-- =================================================
+                 RESULTS
+            ================================================== -->
+
+            <main id="resultsContent">
+
+
+                <!-- =================================================
+                     RISK ASSESSMENT
+                ================================================== -->
+
+                <div class="assessment-card">
+
+                    <div class="assessment-label">
+                        Job Risk Assessment
+                    </div>
+
+
+                    <h1
+                        id="assessmentTitle"
+                        class="assessment-title"
+                    >
+                        Analyzing...
+                    </h1>
+
+
+                    <p
+                        id="assessmentDescription"
+                        class="assessment-description"
+                    >
+                        Reviewing the available evidence.
+                    </p>
+
+
+                    <div class="confidence-wrapper">
+
+                        <div class="confidence-header">
+
+                            <span>
+                                Assessment confidence
+                            </span>
+
+
+                            <span id="confidenceValue">
+                                —
+                            </span>
+
+                        </div>
+
+
+                        <div class="confidence-bar">
+
+                            <div
+                                id="confidenceFill"
+                                class="confidence-fill"
+                            ></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- =================================================
+                     MAIN RESULT CARDS
+                ================================================== -->
+
+                <div class="result-grid">
+
+
+                    <!-- WHY -->
+
+                    <section class="result-section">
+
+                        <h2 class="section-heading">
+                            Why this assessment?
+                        </h2>
+
+
+                        <ul
+                            id="reasoningList"
+                            class="result-list reasoning-list"
+                        ></ul>
+
+                    </section>
+
+
+                    <!-- RECOMMENDATIONS -->
+
+                    <section class="result-section">
+
+                        <h2 class="section-heading">
+                            What you should do
+                        </h2>
+
+
+                        <ul
+                            id="recommendationsList"
+                            class="result-list recommendation-list"
+                        ></ul>
+
+                    </section>
+
+                </div>
+
+
+                <!-- =================================================
+                     NEW ANALYSIS
+                ================================================== -->
+
+                <div class="results-actions">
+
+                    <a
+                        href="/"
+                        class="new-analysis-button"
+                    >
+                        Analyze another job →
+                    </a>
+
+                </div>
+
+
+                <!-- =================================================
+                     JOB DISCOVERY
+                ================================================== -->
+
+                <section class="results-job-discovery">
+
+                    <div class="results-job-discovery-content">
+
+                        <span class="section-badge">
+                            KEEP SEARCHING
+                        </span>
+
+
+                        <h2>
+                            Looking for a job?
+                        </h2>
+
+
+                        <p>
+
+                            Find relevant opportunities from trusted job
+                            sources and apply through the original listing.
+
+                        </p>
+
+
+                        <a
+                            href="/"
+                            class="primary-button"
+                            onclick="sessionStorage.setItem('openJobSearch', 'true');"
+                        >
+                            Find Jobs →
+                        </a>
+
+                    </div>
+
+                </section>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================================
+         RESULTS JAVASCRIPT
+    ========================================================== -->
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", () => {
+
+            const storedResult =
+                sessionStorage.getItem("jobGuardResult");
+
+
+            /* =====================================================
+               NO RESULT
+            ===================================================== */
+
+            if (!storedResult) {
+
+                document.getElementById("resultsContent").innerHTML = `
+
+                    <div class="assessment-card error-result">
+
+                        <h2>
+                            No analysis found
+                        </h2>
+
+                        <p>
+                            Start a new job check to see the assessment.
+                        </p>
+
+                        <a href="/">
+                            ← Check a job
+                        </a>
+
+                    </div>
+
+                `;
+
+                return;
+            }
+
+
+            /* =====================================================
+               PARSE RESULT
+            ===================================================== */
+
+            let data;
+
+
+            try {
+
+                data =
+                    JSON.parse(storedResult);
+
+            }
+
+            catch {
+
+                document.getElementById("resultsContent").innerHTML = `
+
+                    <div class="assessment-card error-result">
+
+                        <h2>
+                            Couldn't load the assessment
+                        </h2>
+
+                        <p>
+                            The saved analysis could not be read.
+                        </p>
+
+                        <a href="/">
+                            ← Try again
+                        </a>
+
+                    </div>
+
+                `;
+
+                return;
+            }
+
+
+            /* =====================================================
+               ASSESSMENT
+            ===================================================== */
+
+            const assessment =
+                String(
+                    data.assessment || "INCONCLUSIVE"
+                ).toUpperCase();
+
+
+            const title =
+                document.getElementById("assessmentTitle");
+
+
+            const description =
+                document.getElementById("assessmentDescription");
+
+
+            const confidenceFill =
+                document.getElementById("confidenceFill");
+
+
+            const confidenceValue =
+                document.getElementById("confidenceValue");
+
+
+            let cssClass;
+
+            let titleText;
+
+            let descriptionText;
+
+
+            if (assessment === "SUSPICIOUS") {
+
+                cssClass =
+                    "suspicious";
+
+
+                titleText =
+                    "⚠ High Risk";
+
+
+                /*
+                 * KEEP THIS SENTENCE EXACTLY AS REQUESTED.
+                 */
+
+                descriptionText =
+                    "Several pieces of evidence indicate this job opportunity deserves caution. Review the reasons below before taking any action.";
+
+            }
+
+
+            else if (assessment === "NOT_SUSPICIOUS") {
+
+                cssClass =
+                    "safe";
+
+
+                titleText =
+                    "✓ Low Risk";
+
+
+                descriptionText =
+                    "The available evidence is reasonably consistent with a legitimate job opportunity, with no strong contradictory scam indicators found.";
+
+            }
+
+
+            else {
+
+                cssClass =
+                    "inconclusive";
+
+
+                titleText =
+                    "◐ Inconclusive";
+
+
+                descriptionText =
+                    "There is not enough consistent evidence to confidently classify this opportunity. Treat unknown information carefully and verify important details.";
+
+            }
+
+
+            title.textContent =
+                titleText;
+
+
+            title.classList.add(cssClass);
+
+
+            description.textContent =
+                descriptionText;
+
+
+            confidenceFill.classList.add(cssClass);
+
+
+            /* =====================================================
+               CONFIDENCE
+            ===================================================== */
+
+            let confidence =
+                Number(
+                    data.confidence || 0
+                );
+
+
+            confidence =
+                Math.max(
+                    0,
+                    Math.min(
+                        1,
+                        confidence
+                    )
+                );
+
+
+            const percentage =
+                Math.round(
+                    confidence * 100
+                );
+
+
+            confidenceValue.textContent =
+                `${percentage}%`;
+
+
+            requestAnimationFrame(() => {
+
+                confidenceFill.style.width =
+                    `${percentage}%`;
+
+            });
+
+
+            /* =====================================================
+               LIST RENDERING
+            ===================================================== */
+
+            function renderList(
+                elementId,
+                items,
+                emptyText
+            ) {
+
+                const element =
+                    document.getElementById(
+                        elementId
+                    );
+
+
+                element.innerHTML =
+                    "";
+
+
+                if (
+                    !Array.isArray(items) ||
+                    items.length === 0
+                ) {
+
+                    element.innerHTML = `
+
+                        <li class="empty-state">
+                            ${emptyText}
+                        </li>
+
+                    `;
+
+                    return;
+                }
+
+
+                items.forEach(item => {
+
+                    const li =
+                        document.createElement("li");
+
+
+                    li.textContent =
+                        String(item);
+
+
+                    element.appendChild(li);
+
+                });
+
+            }
+
+
+            /* =====================================================
+               POPULATE USER-FACING RESULTS
+            ===================================================== */
+
+            /*
+             * These two sections are the ONLY detailed result
+             * sections shown to the user.
+             *
+             * The data still comes directly from Gate 5.
+             * Nothing is hardcoded here.
+             */
+
+            renderList(
+                "reasoningList",
+                data.reasoning,
+                "No additional reasoning was provided."
+            );
+
+
+            renderList(
+                "recommendationsList",
+                data.recommendations,
+                "No specific recommendations were provided."
+            );
+
+        });
+
+    </script>
+
+</body>
+
+</html>

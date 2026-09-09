@@ -1,0 +1,1402 @@
+[
+{
+"id": 1,
+"text": "Hi Rohan, this is Meera from the Talent Acquisition team at Infosys. We received your application for the Systems Engineer role through our careers portal. Please select an interview slot from the calendar link sent to your registered email. There is no fee involved at any stage of the recruitment process.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter follow-up",
+"scam_type": "None"
+},
+{
+"id": 2,
+"text": "Hello Ananya, your profile was shortlisted for the Data Analyst opening at TCS. Please complete the online aptitude assessment on the TCS careers portal by Friday. Use the same email address used for your application.",
+"label": "Legitimate",
+"scenario": "Genuine assessment invitation",
+"scam_type": "None"
+},
+{
+"id": 3,
+"text": "Dear Karthik, thank you for applying for the Software Developer position at Zoho. We would like to invite you for a technical discussion on 28 August at 11:30 AM. The interview will be conducted through Microsoft Teams. Please confirm your availability.",
+"label": "Legitimate",
+"scenario": "Genuine interview invitation",
+"scam_type": "None"
+},
+{
+"id": 4,
+"text": "Hi Priya, I am Nitin from the campus hiring team at Wipro. Your college placement cell shared your details for the 2026 graduate hiring drive. Please verify your preferred test center through the official application form before the deadline.",
+"label": "Legitimate",
+"scenario": "Genuine campus recruitment",
+"scam_type": "None"
+},
+{
+"id": 5,
+"text": "Hello Vivek, this is Shruti from the HR team at HCLTech. We noticed your LinkedIn profile while searching for a Junior Java Developer in Noida. If you are open to opportunities, please send your latest CV. We can then share the job description and selection process.",
+"label": "Legitimate",
+"scenario": "Genuine LinkedIn recruiter message",
+"scam_type": "None"
+},
+{
+"id": 6,
+"text": "Hi Arjun, I am Kavya from the recruitment team at a Bengaluru-based technology company. Your profile matches our QA Engineer opening. We have limited interview slots this week, so please let me know if Thursday or Friday works for you. The discussion will be arranged through our normal interview process.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter WhatsApp message",
+"scam_type": "None"
+},
+{
+"id": 7,
+"text": "Dear Sneha, thank you for your application for the Business Analyst position. We have moved your application to the next stage. Please complete the case-study assessment using the assessment platform linked from our careers page. The assessment is free of charge.",
+"label": "Legitimate",
+"scenario": "Genuine assessment invitation",
+"scam_type": "None"
+},
+{
+"id": 8,
+"text": "Hello Rahul, following your final interview for the Associate Software Engineer role, we are pleased to offer you the position. The formal offer letter and onboarding instructions are available in the candidate portal. Please review the documents and confirm your joining date.",
+"label": "Legitimate",
+"scenario": "Genuine job offer",
+"scam_type": "None"
+},
+{
+"id": 9,
+"text": "Hi Divya, your application for the remote Customer Support Associate role has been shortlisted. The position follows a five-day work week and requires candidates to attend two weeks of online training during business hours. Please complete the interview before the application window closes.",
+"label": "Legitimate",
+"scenario": "Genuine work-from-home recruitment",
+"scam_type": "None"
+},
+{
+"id": 10,
+"text": "Dear Manish, we appreciate your interest in the Network Engineer opening at Tech Mahindra. After reviewing your profile, we have decided to proceed with other candidates whose experience more closely matches the current requirement. We encourage you to apply for future openings.",
+"label": "Legitimate",
+"scenario": "Genuine rejection email",
+"scam_type": "None"
+},
+{
+"id": 11,
+"text": "Hi Aditi, this is Rahul from the placement office. Accenture has confirmed the pre-placement talk for final-year students on Wednesday at 2 PM. Registered students should attend from the college seminar hall and carry their college ID cards.",
+"label": "Legitimate",
+"scenario": "Genuine placement-cell communication",
+"scam_type": "None"
+},
+{
+"id": 12,
+"text": "Dear Sameer, as discussed during your HR round, the expected salary range for the Data Engineer position is between ₹7.5 and ₹9 lakh per annum depending on the final evaluation. Please reply with your current notice period and expected joining date.",
+"label": "Legitimate",
+"scenario": "Genuine salary discussion",
+"scam_type": "None"
+},
+{
+"id": 13,
+"text": "Hello Neha, could you please share your updated CV in PDF format? We need the latest version before scheduling the second technical round for the Frontend Developer position. No other documents are required at this stage.",
+"label": "Legitimate",
+"scenario": "Genuine CV request",
+"scam_type": "None"
+},
+{
+"id": 14,
+"text": "Hi Suresh, congratulations on completing the selection process for the operations associate role. For payroll registration, please upload your PAN and bank account details through the company's secure onboarding portal. These details are requested only after selection and are not collected through WhatsApp.",
+"label": "Legitimate",
+"scenario": "Genuine onboarding document request",
+"scam_type": "None"
+},
+{
+"id": 15,
+"text": "Dear Pooja, your internship application with Deloitte has progressed to the final review stage. Please log in to the candidate portal and complete the availability form. The internship is based in Hyderabad and begins in September.",
+"label": "Legitimate",
+"scenario": "Genuine internship application",
+"scam_type": "None"
+},
+{
+"id": 16,
+"text": "Hi Adil, I am Farah from the HR team at a Chennai software company. I found your profile through a professional networking site. We are hiring a Python intern for a six-month paid internship. If interested, please send your resume and GitHub profile for review.",
+"label": "Legitimate",
+"scenario": "Genuine internship recruiter message",
+"scam_type": "None"
+},
+{
+"id": 17,
+"text": "Dear Lakshmi, this is a reminder that your interview for the HR Executive role is scheduled for tomorrow at 3 PM. Please use the meeting link in the previous email. If you need to reschedule, reply to this message at least two hours before the interview.",
+"label": "Legitimate",
+"scenario": "Genuine interview reminder",
+"scam_type": "None"
+},
+{
+"id": 18,
+"text": "Hello Harish, thank you for attending the first round. The next stage is a 45-minute technical assessment covering SQL and basic Python. You may complete it from home using the assessment link provided by our recruitment portal.",
+"label": "Legitimate",
+"scenario": "Genuine technical assessment",
+"scam_type": "None"
+},
+{
+"id": 19,
+"text": "Hi Nandini, the college placement coordinator has confirmed your registration for the campus drive. Please carry two copies of your resume and your student ID when attending the pre-placement presentation. No registration payment is required.",
+"label": "Legitimate",
+"scenario": "Genuine campus placement",
+"scam_type": "None"
+},
+{
+"id": 20,
+"text": "Dear Yash, we received your application for the Graduate Engineer Trainee position through our official careers website. Your application is currently under review. We will contact shortlisted candidates using the email address provided in the application.",
+"label": "Legitimate",
+"scenario": "Genuine application acknowledgement",
+"scam_type": "None"
+},
+{
+"id": 21,
+"text": "Hi Riya, I am contacting you regarding the Product Support Engineer opening in Pune. The role offers hybrid work and a salary range of ₹5.5–7 lakh depending on experience. If the range is suitable, please share your CV and preferred interview dates.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter outreach",
+"scam_type": "None"
+},
+{
+"id": 22,
+"text": "Hello Mohit, your profile has been selected for the next round of our recruitment process. There are limited interview slots available on Monday and Tuesday. Please choose one through the scheduling page in your application account.",
+"label": "Legitimate",
+"scenario": "Genuine limited interview slots",
+"scam_type": "None"
+},
+{
+"id": 23,
+"text": "Dear Isha, we are pleased to confirm your selection for the summer internship program. The stipend will be ₹18,000 per month. Before joining, you will receive an official internship agreement and onboarding instructions from our HR portal.",
+"label": "Legitimate",
+"scenario": "Genuine internship offer",
+"scam_type": "None"
+},
+{
+"id": 24,
+"text": "Hi Deepak, please join the WhatsApp group created for shortlisted candidates for the campus hiring orientation. The group will be used only for sharing the interview schedule and presentation details. Official offer communication will continue through the company's portal.",
+"label": "Legitimate",
+"scenario": "Genuine WhatsApp recruitment group",
+"scam_type": "None"
+},
+{
+"id": 25,
+"text": "Dear Swati, I am writing from the recruitment desk of a Bengaluru fintech company. We are reviewing candidates for a Risk Analyst position. Your resume was received through Naukri. Please confirm whether you are currently based in Bengaluru or willing to relocate.",
+"label": "Legitimate",
+"scenario": "Genuine recruitment email",
+"scam_type": "None"
+},
+{
+"id": 26,
+"text": "Hi Akash, your interview feedback was positive. Before we finalize the offer, HR would like to discuss compensation, notice period and work location. Please select a 15-minute call slot from the scheduling link.",
+"label": "Legitimate",
+"scenario": "Genuine pre-offer discussion",
+"scam_type": "None"
+},
+{
+"id": 27,
+"text": "Dear Tanvi, the hiring team has reviewed your application and would like to invite you for an online coding round. You can attempt the test anytime between 9 AM and 8 PM on the scheduled date. There is no charge for participating.",
+"label": "Legitimate",
+"scenario": "Genuine coding assessment",
+"scam_type": "None"
+},
+{
+"id": 28,
+"text": "Hello Varun, this is the recruitment coordinator from our Hyderabad office. Your application for Associate Consultant is still active. We wanted to check whether you are available for immediate joining if selected. Please update your availability through the candidate portal.",
+"label": "Legitimate",
+"scenario": "Genuine availability check",
+"scam_type": "None"
+},
+{
+"id": 29,
+"text": "Hi Shreya, congratulations on clearing the technical round. For employee verification, our onboarding team will request your Aadhaar after you accept the offer. You will upload it through the secure employee portal, not by replying to this email.",
+"label": "Legitimate",
+"scenario": "Genuine identity verification",
+"scam_type": "None"
+},
+{
+"id": 30,
+"text": "Dear Pranav, we have scheduled your final HR interview for the Business Intelligence Analyst role at our Gurugram office. Please bring one photo ID and a copy of your resume. The interview itself will not require any payment.",
+"label": "Legitimate",
+"scenario": "Genuine final interview",
+"scam_type": "None"
+},
+{
+"id": 31,
+"text": "Hello Kavya, thank you for applying for our customer success internship. We received your application yesterday and expect to complete screening within five working days. No action is required until the recruitment team contacts shortlisted applicants.",
+"label": "Legitimate",
+"scenario": "Genuine application follow-up",
+"scam_type": "None"
+},
+{
+"id": 32,
+"text": "Hi Rohit, I am Snehal from the talent team at a Mumbai consulting firm. I am reaching out through my personal-looking Gmail account because I am working remotely this week. I can share the official job description and company careers page if you would like to review the opening before proceeding.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter using Gmail",
+"scam_type": "None"
+},
+{
+"id": 33,
+"text": "Dear Mehul, your application for the Content Specialist position has been shortlisted. The first round is a 30-minute discussion about your writing experience. Please confirm your preferred time from the available slots before Friday evening.",
+"label": "Legitimate",
+"scenario": "Genuine interview scheduling",
+"scam_type": "None"
+},
+{
+"id": 34,
+"text": "Hi Nisha, the HR team has requested your PAN card number for statutory payroll setup following your acceptance of the offer. Please submit it only through the secure onboarding portal. Do not send a scan over WhatsApp.",
+"label": "Legitimate",
+"scenario": "Genuine PAN onboarding request",
+"scam_type": "None"
+},
+{
+"id": 35,
+"text": "Hello Kunal, the recruitment team at a Delhi-based logistics company is hiring Operations Trainees. The role involves six days a week during the initial training period. If you are comfortable with the schedule, please send your updated resume.",
+"label": "Legitimate",
+"scenario": "Genuine job opening",
+"scam_type": "None"
+},
+{
+"id": 36,
+"text": "Dear Ayesha, your application for the Associate Data Scientist role has reached the hiring manager. We may contact you by phone for a brief screening call. Please keep the contact number listed in your application active.",
+"label": "Legitimate",
+"scenario": "Genuine application follow-up",
+"scam_type": "None"
+},
+{
+"id": 37,
+"text": "Hi Sagar, please find the interview agenda attached in the candidate portal. The panel will include an engineering manager and a senior developer. You do not need to prepare a presentation; the session will focus on your previous projects.",
+"label": "Legitimate",
+"scenario": "Genuine interview instructions",
+"scam_type": "None"
+},
+{
+"id": 38,
+"text": "Dear Muskan, we are pleased to invite you to the final interview for the Finance Analyst role in Ahmedabad. Please bring your original educational certificates only for verification and take them back after the interview.",
+"label": "Legitimate",
+"scenario": "Genuine document verification",
+"scam_type": "None"
+},
+{
+"id": 39,
+"text": "Hi Imran, I am Anjali from the HR team. Your profile on LinkedIn matches our Machine Learning Engineer opening in Bengaluru. The compensation range is competitive but depends on experience. If interested, please share your resume and notice period.",
+"label": "Legitimate",
+"scenario": "Genuine LinkedIn outreach",
+"scam_type": "None"
+},
+{
+"id": 40,
+"text": "Hello Pallavi, your application for the HR trainee position has been received successfully. The recruitment team will conduct an online aptitude test before the interview. You will receive the test invitation from our assessment provider.",
+"label": "Legitimate",
+"scenario": "Genuine trainee recruitment",
+"scam_type": "None"
+},
+{
+"id": 41,
+"text": "Dear Naveen, we would like to invite you to apply for our remote Technical Support Associate position. The job is full-time, follows Indian business hours and includes a standard probation period. Please review the detailed job description before submitting your application.",
+"label": "Legitimate",
+"scenario": "Genuine remote job",
+"scam_type": "None"
+},
+{
+"id": 42,
+"text": "Hi Simran, the campus placement cell has received confirmation from Capgemini for the graduate hiring drive. Eligible students should register using the link circulated through the college ERP before 5 PM today. The deadline is set by the company.",
+"label": "Legitimate",
+"scenario": "Genuine placement-cell notice",
+"scam_type": "None"
+},
+{
+"id": 43,
+"text": "Dear Faizan, thank you for attending the interview for the Sales Executive role. After careful consideration, we will not be moving forward with your application. We appreciate your time and encourage you to watch our careers page for future opportunities.",
+"label": "Legitimate",
+"scenario": "Genuine rejection",
+"scam_type": "None"
+},
+{
+"id": 44,
+"text": "Hello Preeti, as discussed, the offer for the Junior Accountant position includes a monthly salary of ₹32,000 plus statutory benefits. The final compensation details will be stated in the formal offer document after approval from finance.",
+"label": "Legitimate",
+"scenario": "Genuine salary discussion",
+"scam_type": "None"
+},
+{
+"id": 45,
+"text": "Hi Jay, your CV was shortlisted for our React Developer vacancy in Pune. Could you send the latest version with your current notice period and expected compensation? We will use this information only for evaluating the role fit.",
+"label": "Legitimate",
+"scenario": "Genuine CV request",
+"scam_type": "None"
+},
+{
+"id": 46,
+"text": "Dear Harini, we are conducting a final verification for selected candidates. Please log in to the official employee onboarding system and upload the requested identity document. The portal uses your candidate credentials and is separate from the recruitment team's messaging channel.",
+"label": "Legitimate",
+"scenario": "Genuine onboarding",
+"scam_type": "None"
+},
+{
+"id": 47,
+"text": "Hi Abhishek, I am from the recruitment team of a Chennai IT services company. We found your profile through your GitHub activity. We are looking for a graduate Python developer. Would you be available for a short introductory call this week?",
+"label": "Legitimate",
+"scenario": "Genuine technical recruiter outreach",
+"scam_type": "None"
+},
+{
+"id": 48,
+"text": "Hello Shalini, your interview has been moved from Tuesday to Wednesday at the same time because the hiring manager is unavailable. Please confirm the revised schedule through the candidate portal.",
+"label": "Legitimate",
+"scenario": "Genuine interview rescheduling",
+"scam_type": "None"
+},
+{
+"id": 49,
+"text": "Dear Dev, the internship selection committee has approved your application. Your six-month internship in Hyderabad includes a monthly stipend and a mentor-led project. The joining letter will be issued after you confirm your availability.",
+"label": "Legitimate",
+"scenario": "Genuine internship selection",
+"scam_type": "None"
+},
+{
+"id": 50,
+"text": "Hi Keerthi, please complete the candidate information form before your scheduled interview. We only need basic contact information, education details and your current employment status at this stage.",
+"label": "Legitimate",
+"scenario": "Genuine pre-interview form",
+"scam_type": "None"
+},
+{
+"id": 51,
+"text": "Dear Omkar, the placement office is organizing a recruitment orientation for final-year students interested in the Infosys drive. Attendance is voluntary, and the session will cover eligibility criteria, assessment stages and job roles.",
+"label": "Legitimate",
+"scenario": "Genuine campus orientation",
+"scam_type": "None"
+},
+{
+"id": 52,
+"text": "Hello Ritu, I am contacting you about the Senior Customer Support opening in Kochi. The position allows two days of remote work each week. If you are interested, please apply through our official careers page and mention this message in the referral field.",
+"label": "Legitimate",
+"scenario": "Genuine hybrid recruitment",
+"scam_type": "None"
+},
+{
+"id": 53,
+"text": "Hi Ankit, we have reviewed your application and would like to schedule a second round. There are only a few panel slots available this week because of the hiring team's travel schedule. Please choose a convenient slot before Wednesday.",
+"label": "Legitimate",
+"scenario": "Genuine urgent scheduling",
+"scam_type": "None"
+},
+{
+"id": 54,
+"text": "Dear Fatima, your employment application has reached the documentation stage. After accepting the offer, you will be asked to provide PAN, Aadhaar and bank details through the company's employee portal for payroll and statutory compliance.",
+"label": "Legitimate",
+"scenario": "Genuine post-selection documentation",
+"scam_type": "None"
+},
+{
+"id": 55,
+"text": "Hello Vikas, we received your resume for the DevOps Engineer role. The recruiter would like to understand your experience with AWS and Kubernetes before deciding whether to proceed. Please reply with a brief summary or schedule a screening call.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter follow-up",
+"scam_type": "None"
+},
+{
+"id": 56,
+"text": "Hi Tanya, the hiring manager has requested one final discussion before making a decision on your application. It will be a 20-minute video call focused on team fit and your preferred joining date.",
+"label": "Legitimate",
+"scenario": "Genuine final discussion",
+"scam_type": "None"
+},
+{
+"id": 57,
+"text": "Dear Lakshman, please note that the deadline for applying to our Graduate Trainee program is 6 PM today. This is the official closing time for applications, after which the portal will stop accepting new submissions.",
+"label": "Legitimate",
+"scenario": "Genuine application deadline",
+"scam_type": "None"
+},
+{
+"id": 58,
+"text": "Hi Sana, your profile has been shortlisted for the Associate Product Manager internship. Please submit your resume and a short response describing one product you use regularly. This will be reviewed as part of the normal selection process.",
+"label": "Legitimate",
+"scenario": "Genuine internship assessment",
+"scam_type": "None"
+},
+{
+"id": 59,
+"text": "Hello Nikhil, I am Reema from the hiring team. We are currently recruiting for a Sales Operations Analyst in Gurugram. I can arrange a call to explain the role, compensation and working hours before you decide whether to apply.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter outreach",
+"scam_type": "None"
+},
+{
+"id": 60,
+"text": "Dear Monica, your application for the Associate Consultant role was unsuccessful after the assessment stage. Thank you for participating in the process. Your profile may be considered for suitable openings in the future.",
+"label": "Legitimate",
+"scenario": "Genuine rejection email",
+"scam_type": "None"
+},
+{
+"id": 61,
+"text": "Hi Rohini, the HR team has shared the offer details for your review. Please check the official candidate portal for the compensation breakdown, benefits and proposed joining date. Contact HR through the listed company number if you have questions.",
+"label": "Legitimate",
+"scenario": "Genuine offer communication",
+"scam_type": "None"
+},
+{
+"id": 62,
+"text": "Dear Kartik, we would like to invite you to an online assessment for our Chennai graduate hiring program. The test covers logical reasoning, basic programming and communication skills. You can take it using your personal laptop.",
+"label": "Legitimate",
+"scenario": "Genuine graduate assessment",
+"scam_type": "None"
+},
+{
+"id": 63,
+"text": "Hello Mansi, your CV has been received for the Marketing Coordinator position. Could you confirm your current location, expected salary and availability for an interview next week? No additional documents are needed right now.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter email",
+"scam_type": "None"
+},
+{
+"id": 64,
+"text": "Hi Prakash, this is the campus recruitment coordinator. Students shortlisted by IBM should check their college email for the assessment link. Please do not forward the link because each candidate receives a unique login.",
+"label": "Legitimate",
+"scenario": "Genuine campus assessment",
+"scam_type": "None"
+},
+{
+"id": 65,
+"text": "Dear Alisha, we are pleased to invite you to join our remote internship program starting 7 September. Your offer letter contains the stipend, project assignment, working hours and reporting manager. Please confirm acceptance through the internship portal.",
+"label": "Legitimate",
+"scenario": "Genuine remote internship",
+"scam_type": "None"
+},
+{
+"id": 66,
+"text": "Hi Ramesh, following your application on our website, we would like to arrange a phone screening for the Service Desk Analyst role. Please let us know whether you are available between 10 AM and 1 PM tomorrow.",
+"label": "Legitimate",
+"scenario": "Genuine phone screening",
+"scam_type": "None"
+},
+{
+"id": 67,
+"text": "Hello Bhavana, the recruiter has requested your updated resume because the earlier version does not include your latest internship. Please email the corrected CV before the hiring manager reviews the shortlist.",
+"label": "Legitimate",
+"scenario": "Genuine resume update request",
+"scam_type": "None"
+},
+{
+"id": 68,
+"text": "Dear Aditya, we have received your signed offer letter. The next step is background verification through our authorized vendor. You will receive a separate email containing instructions to provide employment and education details.",
+"label": "Legitimate",
+"scenario": "Genuine background verification",
+"scam_type": "None"
+},
+{
+"id": 69,
+"text": "Hi Swara, I am Priyanka from HR. I found your profile on LinkedIn and wanted to discuss a Business Development Associate position in Mumbai. If you are exploring opportunities, please send your resume and a convenient time for a call.",
+"label": "Legitimate",
+"scenario": "Genuine LinkedIn recruiter message",
+"scam_type": "None"
+},
+{
+"id": 70,
+"text": "Dear Naveena, your application is still being evaluated by the hiring team. We expect to have an update next week. Thank you for your patience and for taking the time to complete the assessment.",
+"label": "Legitimate",
+"scenario": "Genuine recruitment follow-up",
+"scam_type": "None"
+},
+{
+"id": 71,
+"text": "Hello Amar, we are hiring for a work-from-home Technical Writer role. The position requires candidates to attend daily online meetings and maintain overlap with the Bengaluru team from 10 AM to 6 PM. Please review the responsibilities before applying.",
+"label": "Legitimate",
+"scenario": "Genuine work-from-home job",
+"scam_type": "None"
+},
+{
+"id": 72,
+"text": "Hi Geeta, your application for the Finance Operations role has been shortlisted. The next round is an Excel-based practical test. You will receive the assessment through the company's recruitment platform, and there is no registration charge.",
+"label": "Legitimate",
+"scenario": "Genuine practical assessment",
+"scam_type": "None"
+},
+{
+"id": 73,
+"text": "Dear Rohit, congratulations on being selected for the Graduate Engineer Trainee role. Please review the formal offer in your candidate account. Once accepted, HR will guide you through documentation and joining formalities.",
+"label": "Legitimate",
+"scenario": "Genuine graduate job offer",
+"scam_type": "None"
+},
+{
+"id": 74,
+"text": "Hello Ishita, your interview panel has asked whether you can relocate to Pune if selected. Please confirm your preference before the final discussion so the hiring team can record it correctly.",
+"label": "Legitimate",
+"scenario": "Genuine relocation discussion",
+"scam_type": "None"
+},
+{
+"id": 75,
+"text": "Hi Faisal, this is the HR coordinator from a Hyderabad healthcare technology company. We received your application through LinkedIn. Could you share your notice period and whether you are comfortable working from our office three days a week?",
+"label": "Legitimate",
+"scenario": "Genuine recruiter outreach",
+"scam_type": "None"
+},
+{
+"id": 76,
+"text": "Dear Shikha, please join the candidate orientation call at 4 PM tomorrow. We will explain the selection stages, interview format and expected timelines for the graduate hiring program. Joining the call is free.",
+"label": "Legitimate",
+"scenario": "Genuine recruitment orientation",
+"scam_type": "None"
+},
+{
+"id": 77,
+"text": "Hi Varsha, your interview for the Associate HR role is confirmed. Please keep your resume and one government-issued photo ID available for verification during the video interview. No documents need to be sent beforehand.",
+"label": "Legitimate",
+"scenario": "Genuine interview instructions",
+"scam_type": "None"
+},
+{
+"id": 78,
+"text": "Dear Arvind, we have reviewed your technical assignment and would like to proceed with the HR round. Please choose a slot from the scheduling page. The recruiter will discuss salary, benefits and expected joining date during the call.",
+"label": "Legitimate",
+"scenario": "Genuine HR interview",
+"scam_type": "None"
+},
+{
+"id": 79,
+"text": "Hello Neelam, your internship application was successful. The company will provide a stipend of ₹15,000 per month and a completion certificate. Please accept the official internship agreement through the student portal.",
+"label": "Legitimate",
+"scenario": "Genuine internship offer",
+"scam_type": "None"
+},
+{
+"id": 80,
+"text": "Hi Manav, we are closing applications for our September intake today. If you want to be considered for the Junior Data Analyst opening, please submit your application through the official careers page before the portal closes.",
+"label": "Legitimate",
+"scenario": "Genuine urgent application deadline",
+"scam_type": "None"
+},
+{
+"id": 81,
+"text": "Dear Nupur, your candidate profile has been created successfully. Please verify your email address using the confirmation message from our recruitment portal. This allows us to send assessment and interview updates.",
+"label": "Legitimate",
+"scenario": "Genuine application registration",
+"scam_type": "None"
+},
+{
+"id": 82,
+"text": "Hi Tarun, I am reaching out from the recruitment team at a Pune-based SaaS company. Your experience in SQL and Power BI looks relevant to our reporting analyst role. If interested, please share your latest CV for an initial review.",
+"label": "Legitimate",
+"scenario": "Genuine recruiter message",
+"scam_type": "None"
+},
+{
+"id": 83,
+"text": "Hello Komal, the final interview for the Software Tester role will take place online. Please use the meeting link in your candidate dashboard and join five minutes early. The panel will include the QA lead and HR representative.",
+"label": "Legitimate",
+"scenario": "Genuine interview invitation",
+"scam_type": "None"
+},
+{
+"id": 84,
+"text": "Dear Suraj, following your selection, our onboarding team needs your bank account number and IFSC for salary processing. Please enter these details directly into the employee portal after logging in with your company credentials.",
+"label": "Legitimate",
+"scenario": "Genuine payroll onboarding",
+"scam_type": "None"
+},
+{
+"id": 85,
+"text": "Hi Anushka, the placement cell has confirmed that the eligibility list for the campus drive is now available. Students with the required percentage and graduation year may register before the deadline mentioned in the notice.",
+"label": "Legitimate",
+"scenario": "Genuine campus placement notice",
+"scam_type": "None"
+},
+{
+"id": 86,
+"text": "Dear Rohit, thank you for completing the first assessment. Your score has met the threshold for the next round. Please use the candidate portal to select an interview time between Thursday and Saturday.",
+"label": "Legitimate",
+"scenario": "Genuine assessment follow-up",
+"scam_type": "None"
+},
+{
+"id": 87,
+"text": "Hello Meera, we are still finalizing the compensation budget for the Data Engineer position. Based on your experience, the expected range discussed earlier remains under consideration. We will confirm the exact package with the final offer.",
+"label": "Legitimate",
+"scenario": "Genuine salary discussion",
+"scam_type": "None"
+},
+{
+"id": 88,
+"text": "Hi Siddharth, please send a PDF copy of your updated resume to the recruitment email listed on our careers page. We need it to complete your application for the Business Analyst vacancy.",
+"label": "Legitimate",
+"scenario": "Genuine CV request",
+"scam_type": "None"
+},
+{
+"id": 89,
+"text": "Dear Aakash, your profile has been shortlisted for a remote Java Developer role based in India. The position includes standard employee benefits and a probation period. Please attend the scheduled technical interview before we make the final decision.",
+"label": "Legitimate",
+"scenario": "Genuine remote recruitment",
+"scam_type": "None"
+},
+{
+"id": 90,
+"text": "Hi Zoya, I am contacting you through WhatsApp because you provided this number in your job application. We are arranging interviews for the Customer Experience Associate role. I can share the official job description and scheduling details here before you proceed.",
+"label": "Legitimate",
+"scenario": "Genuine WhatsApp recruiter message",
+"scam_type": "None"
+},
+{
+"id": 91,
+"text": "Hello Gaurav, your application has been declined for the current opening because the role requires more experience. We appreciate your interest and have retained your profile for future opportunities where your qualifications may be suitable.",
+"label": "Legitimate",
+"scenario": "Genuine rejection",
+"scam_type": "None"
+},
+{
+"id": 92,
+"text": "Dear Rachana, your offer acceptance has been recorded. Please complete the employee information form by Monday so that HR can prepare your joining documents. Aadhaar and PAN will be collected through the secure onboarding system.",
+"label": "Legitimate",
+"scenario": "Genuine onboarding",
+"scam_type": "None"
+},
+{
+"id": 93,
+"text": "Hi Akhil, your interview is scheduled for 11 AM tomorrow. The recruiter will call you on the number provided in your application. Please note that our hiring process does not involve any payment from candidates.",
+"label": "Legitimate",
+"scenario": "Genuine interview reminder",
+"scam_type": "None"
+},
+{
+"id": 94,
+"text": "Dear Padmini, we are looking for graduates for a paid operations internship in Chennai. The selection process includes a resume review, a short online assessment and an interview. Please apply through the internship page before the closing date.",
+"label": "Legitimate",
+"scenario": "Genuine internship recruitment",
+"scam_type": "None"
+},
+{
+"id": 95,
+"text": "Hello Yuvraj, the hiring manager has requested your portfolio before the UI Designer interview. Please share a link to your existing work. There is no need to create a new sample specifically for this stage.",
+"label": "Legitimate",
+"scenario": "Genuine portfolio request",
+"scam_type": "None"
+},
+{
+"id": 96,
+"text": "Hi Lavanya, your application for the Associate Software Engineer role has been moved to the interview stage. We have limited panel availability this week, so please select a slot as soon as convenient using the official scheduling link.",
+"label": "Legitimate",
+"scenario": "Genuine interview scheduling",
+"scam_type": "None"
+},
+{
+"id": 97,
+"text": "Dear Rakesh, I am the placement coordinator for your department. The company has changed the campus assessment date from Friday to Monday. Please check the revised notice on the college placement portal.",
+"label": "Legitimate",
+"scenario": "Genuine placement communication",
+"scam_type": "None"
+},
+{
+"id": 98,
+"text": "Hello Nitin, after your successful interview, the recruiter would like to discuss whether you prefer the Bengaluru or Chennai location. The salary range remains the same for both offices.",
+"label": "Legitimate",
+"scenario": "Genuine post-interview discussion",
+"scam_type": "None"
+},
+{
+"id": 99,
+"text": "Hi Saloni, we received your application through our Gmail recruitment address because the company careers mailbox is currently being migrated. You can independently verify the vacancy on our official website before sharing your CV.",
+"label": "Legitimate",
+"scenario": "Genuine personal-looking recruiter email",
+"scam_type": "None"
+},
+{
+"id": 100,
+"text": "Dear Tejas, welcome to the next stage of our recruitment process. Please complete the official background information form and upload your education certificates through the candidate portal. HR will contact you if any additional verification is required.",
+"label": "Legitimate",
+"scenario": "Genuine recruitment documentation",
+"scam_type": "None"
+},
+{
+"id": 101,
+"text": "Congratulations Rahul, your profile has been selected for the Senior Executive position. To reserve your interview slot, please transfer ₹1,499 as a refundable registration amount to the recruiter UPI ID before 6 PM today.",
+"label": "Fraudulent",
+"scenario": "Recruitment payment scam",
+"scam_type": "Registration fee"
+},
+{
+"id": 102,
+"text": "Dear Neha, your application for the airport ground staff vacancy is approved. An application processing fee of ₹850 is required before we can issue your interview schedule. Once paid, send the transaction screenshot to HR.",
+"label": "Fraudulent",
+"scenario": "Fake recruitment email",
+"scam_type": "Application fee"
+},
+{
+"id": 103,
+"text": "Hi Arjun, interview slots for the Mumbai software role are almost full. Kindly pay ₹2,000 for interview coordination and verification. The amount will be adjusted after joining. Complete the payment today to avoid losing your slot.",
+"label": "Fraudulent",
+"scenario": "Fake interview arrangement",
+"scam_type": "Interview fee"
+},
+{
+"id": 104,
+"text": "Hello Priya, congratulations on your selection with GlobalTech Solutions. Before your joining date, a one-time joining fee of ₹3,500 is required for employee registration. Please use the UPI number below and forward the payment reference.",
+"label": "Fraudulent",
+"scenario": "Fake job offer",
+"scam_type": "Joining fee"
+},
+{
+"id": 105,
+"text": "Dear Sameer, selected candidates must complete mandatory virtual training before joining. The training kit and trainer access cost ₹2,750. Your offer will be activated immediately after payment is received.",
+"label": "Fraudulent",
+"scenario": "Fake training program",
+"scam_type": "Training fee"
+},
+{
+"id": 106,
+"text": "Hi Kavya, your work-from-home position has been approved. To activate the company laptop shipment, please deposit ₹4,000 as a refundable security amount. It will be returned with your first salary.",
+"label": "Fraudulent",
+"scenario": "Work-from-home scam",
+"scam_type": "Security deposit"
+},
+{
+"id": 107,
+"text": "Hello Vikas, we can confirm your placement in the IT support role once the refundable document verification deposit of ₹1,250 is received. The amount will be returned after your first week of employment.",
+"label": "Fraudulent",
+"scenario": "Fake placement process",
+"scam_type": "Refundable deposit"
+},
+{
+"id": 108,
+"text": "Dear Ananya, our agency has secured a priority placement for you with a reputed Hyderabad company. Please pay the placement service charge of ₹5,999 today so that we can forward your profile to the employer.",
+"label": "Fraudulent",
+"scenario": "Fake recruitment agency",
+"scam_type": "Placement fee"
+},
+{
+"id": 109,
+"text": "Hi Rohan, your interview was successful. To complete the final HR registration, send ₹999 through UPI to the number below. Once we receive the payment, your digital offer letter will be released.",
+"label": "Fraudulent",
+"scenario": "Fake HR communication",
+"scam_type": "UPI payment request"
+},
+{
+"id": 110,
+"text": "Your candidate account requires verification. Please share the six-digit OTP received on your registered mobile number with our HR executive so we can complete your recruitment profile.",
+"label": "Fraudulent",
+"scenario": "Credential theft through recruitment",
+"scam_type": "OTP request"
+},
+{
+"id": 111,
+"text": "Hello Nisha, payroll verification is pending for your selected position. Please provide your debit card CVV along with the last four digits of the card so the salary account can be activated.",
+"label": "Fraudulent",
+"scenario": "Fake payroll verification",
+"scam_type": "CVV request"
+},
+{
+"id": 112,
+"text": "Dear Karthik, the HR portal is currently unavailable, so please send your net banking user ID, password and account details over WhatsApp for salary registration. These details are required before joining.",
+"label": "Fraudulent",
+"scenario": "Fake HR onboarding",
+"scam_type": "Bank credential request"
+},
+{
+"id": 113,
+"text": "Hi Meera, your Aadhaar verification has failed because the recruitment record does not match. Send a clear photo of your Aadhaar card along with the OTP received from UIDAI to correct the record immediately.",
+"label": "Fraudulent",
+"scenario": "Identity document misuse",
+"scam_type": "Aadhaar misuse"
+},
+{
+"id": 114,
+"text": "Dear Akash, PAN validation is required to release your employment offer. Please WhatsApp a photo of your PAN card and the verification code sent to your phone. The HR desk will update your profile after confirmation.",
+"label": "Fraudulent",
+"scenario": "Identity theft attempt",
+"scam_type": "PAN misuse"
+},
+{
+"id": 115,
+"text": "Congratulations, your background verification has been flagged due to an address mismatch. Pay ₹1,800 for the third-party verification report today, otherwise the employer will cancel your selection.",
+"label": "Fraudulent",
+"scenario": "Fake background verification",
+"scam_type": "Verification fee"
+},
+{
+"id": 116,
+"text": "Hi Suresh, we need to complete final document authentication before issuing your appointment letter. Please transfer ₹2,200 to the verification officer. The amount is mandatory and cannot be removed from the process.",
+"label": "Fraudulent",
+"scenario": "Fake document verification",
+"scam_type": "Document verification fee"
+},
+{
+"id": 117,
+"text": "Dear Pooja, your virtual interview is scheduled for today at 5 PM. Please install the attached remote interview application and enter your bank details when prompted for candidate verification.",
+"label": "Fraudulent",
+"scenario": "Fake interview process",
+"scam_type": "Fake interview"
+},
+{
+"id": 118,
+"text": "Hello Imran, I am the HR manager for the recruitment drive. We have reviewed your profile and decided to select you directly for the Operations Manager position without another interview. Please complete the joining formalities using the payment link.",
+"label": "Fraudulent",
+"scenario": "Impersonated HR manager",
+"scam_type": "Fake HR"
+},
+{
+"id": 119,
+"text": "Hi Divya, our placement consultancy has partnered with several multinational companies and can guarantee you a job within seven days. To reserve your candidate seat, send ₹7,500 today. The employer name will be disclosed after registration.",
+"label": "Fraudulent",
+"scenario": "Fake recruitment agency",
+"scam_type": "Placement fee"
+},
+{
+"id": 120,
+"text": "Dear Harish, you have been shortlisted for a six-month software internship paying ₹45,000 per month. No interview is required. Simply complete the registration form and pay ₹1,100 for the internship ID card.",
+"label": "Fraudulent",
+"scenario": "Fake internship offer",
+"scam_type": "Registration fee"
+},
+{
+"id": 121,
+"text": "Campus Placement Notice: Congratulations to the shortlisted students. Selected candidates must pay ₹2,500 to the placement coordinator for company registration before their names can be forwarded to the employer. Payment closes tonight.",
+"label": "Fraudulent",
+"scenario": "Fake campus placement",
+"scam_type": "Placement fee"
+},
+{
+"id": 122,
+"text": "Dear Yash, attached is your appointment letter for the Data Analyst position with a package of ₹12.8 lakh per annum. You were selected based on your online profile. Pay the document dispatch charge of ₹1,750 to receive the original letter.",
+"label": "Fraudulent",
+"scenario": "Fake offer letter",
+"scam_type": "Document fee"
+},
+{
+"id": 123,
+"text": "Hello Aditi, you have been selected for the Customer Support Executive role with a salary of ₹65,000 per month. The employer is skipping interviews for candidates who apply today. Confirm your seat by completing the registration payment.",
+"label": "Fraudulent",
+"scenario": "Unrealistic recruitment offer",
+"scam_type": "Selected without interview"
+},
+{
+"id": 124,
+"text": "Hi Rohit, this is the final opportunity to secure your placement. We guarantee a position with a reputed company if you complete our paid candidate verification today. The fee is ₹4,999 and applications close at midnight.",
+"label": "Fraudulent",
+"scenario": "Guaranteed placement scam",
+"scam_type": "Guaranteed job"
+},
+{
+"id": 125,
+"text": "Dear Sneha, our Bengaluru startup is offering freshers ₹1.2 lakh per month for a remote AI assistant role. No prior experience is required and candidates can start immediately after paying the refundable workstation deposit.",
+"label": "Fraudulent",
+"scenario": "High-salary remote scam",
+"scam_type": "Unrealistic salary"
+},
+{
+"id": 126,
+"text": "Hello Manish, earn ₹3,000 to ₹5,000 daily from home by reviewing products for our company. Work for two hours a day and receive your first payout tomorrow. A one-time activation amount is required to unlock the task dashboard.",
+"label": "Fraudulent",
+"scenario": "Part-time task scam",
+"scam_type": "Work-from-home scam"
+},
+{
+"id": 127,
+"text": "Hi Isha, you can earn ₹2,500 every evening by completing simple online assignments. We have immediate openings for students across India. Pay ₹799 to activate your worker account and start receiving tasks.",
+"label": "Fraudulent",
+"scenario": "Student part-time scam",
+"scam_type": "Activation fee"
+},
+{
+"id": 128,
+"text": "Dear Varun, your employment registration is almost complete. An advance payment of ₹3,200 is needed for the joining kit. Please make the transfer before tomorrow morning so your joining date remains unchanged.",
+"label": "Fraudulent",
+"scenario": "Advance payment scam",
+"scam_type": "Advance payment"
+},
+{
+"id": 129,
+"text": "Your interview with our Mumbai office can be arranged immediately if you confirm the candidate processing amount of ₹650. Payment must be made before the interview link is shared.",
+"label": "Fraudulent",
+"scenario": "Fake interview booking",
+"scam_type": "Payment before interview"
+},
+{
+"id": 130,
+"text": "Hello Priyanka, congratulations on your selection. To reserve your Monday joining slot, transfer ₹2,999 today. We have only three joining slots remaining and the offer expires at 8 PM.",
+"label": "Fraudulent",
+"scenario": "Urgent joining scam",
+"scam_type": "Payment before joining"
+},
+{
+"id": 131,
+"text": "Hi Deepak, we are recruiting for a major e-commerce company. Please message our HR coordinator on WhatsApp and provide your full name, Aadhaar number and UPI ID to create your candidate profile.",
+"label": "Fraudulent",
+"scenario": "WhatsApp recruitment scam",
+"scam_type": "Aadhaar misuse"
+},
+{
+"id": 132,
+"text": "Dear Kavita, you have been shortlisted for a government-linked contract role. For faster communication, join our Telegram recruitment channel and contact the administrator. Your selection code will be activated after a small verification payment.",
+"label": "Fraudulent",
+"scenario": "Telegram recruitment scam",
+"scam_type": "Verification fee"
+},
+{
+"id": 133,
+"text": "Hello Arvind, I am from the HR department of Amazon India. We found your resume and have approved you for a work-from-home role paying ₹80,000 monthly. Send your Aadhaar and pay the onboarding amount to receive your offer.",
+"label": "Fraudulent",
+"scenario": "Company impersonation",
+"scam_type": "Fake company impersonation"
+},
+{
+"id": 134,
+"text": "Dear Riya, your selection with Infosys is confirmed. Please respond within the next two hours to avoid automatic cancellation. A refundable security payment is required before the offer letter can be downloaded.",
+"label": "Fraudulent",
+"scenario": "Impersonated company recruitment",
+"scam_type": "Urgency pressure"
+},
+{
+"id": 135,
+"text": "Hi Nikhil, this is the recruitment desk at accenture-careers-india.com. Your profile has been approved for an immediate joining position. Pay the ₹1,999 registration amount before midnight because the offer expires today.",
+"label": "Fraudulent",
+"scenario": "Lookalike company domain",
+"scam_type": "Fake company-domain-looking email"
+},
+{
+"id": 136,
+"text": "Congratulations Ayesha, your profile has been selected for a remote finance role with a reputed MNC. No interview is required for this batch. Send ₹1,250 to complete the employee ID registration and receive your joining instructions.",
+"label": "Fraudulent",
+"scenario": "Fake remote job",
+"scam_type": "No interview required"
+},
+{
+"id": 137,
+"text": "Dear Mohan, we are pleased to offer you the position of Assistant Manager with a salary of ₹18 lakh per year. Since your profile has already been verified, there will be no interview. Pay the courier and processing charge to receive the signed appointment letter.",
+"label": "Fraudulent",
+"scenario": "Professional-looking fake offer",
+"scam_type": "Selected without interview"
+},
+{
+"id": 138,
+"text": "Hello Snehal, your application is one of only 10 profiles chosen for our premium placement program. To keep your seat, pay ₹6,500 by UPI today. The fee is refundable if an employer does not select you within 30 days.",
+"label": "Fraudulent",
+"scenario": "Premium placement scam",
+"scam_type": "Refundable deposit"
+},
+{
+"id": 139,
+"text": "Hi Rahul, we need your UPI PIN to verify that the bank account belongs to you before salary setup. Please enter the PIN when our recruitment executive calls you. This is the final step in onboarding.",
+"label": "Fraudulent",
+"scenario": "Banking credential theft",
+"scam_type": "UPI PIN request"
+},
+{
+"id": 140,
+"text": "Dear Nandini, your recruitment verification has been initiated. Please share the OTP generated by your banking application so our payroll team can confirm the account linked to your job application.",
+"label": "Fraudulent",
+"scenario": "Fake payroll verification",
+"scam_type": "OTP request"
+},
+{
+"id": 141,
+"text": "Hello Ajay, the employer requires a debit card number and CVV before issuing the employee access card. Please send the details to the HR coordinator through Telegram because the official portal is under maintenance.",
+"label": "Fraudulent",
+"scenario": "Fake employee verification",
+"scam_type": "CVV request"
+},
+{
+"id": 142,
+"text": "Hi Pooja, your salary account cannot be activated until we receive your internet banking login details. Please send the username and password privately to the HR executive so payroll can complete your joining.",
+"label": "Fraudulent",
+"scenario": "Fake payroll onboarding",
+"scam_type": "Bank credential request"
+},
+{
+"id": 143,
+"text": "Dear Sagar, your Aadhaar is required to process the final employment agreement. Please send both sides of the card along with a selfie holding the document. We need it urgently before the offer expires.",
+"label": "Fraudulent",
+"scenario": "Identity document harvesting",
+"scam_type": "Aadhaar misuse"
+},
+{
+"id": 144,
+"text": "Hello Komal, the HR system has detected an incorrect PAN record. Send your PAN image and date of birth immediately so we can correct the salary tax profile. Failure to respond today will cancel the job.",
+"label": "Fraudulent",
+"scenario": "Fake tax verification",
+"scam_type": "PAN misuse"
+},
+{
+"id": 145,
+"text": "Hi Sameer, your background check is incomplete because one of your references did not respond. Pay ₹950 for an expedited verification and we will close the report within two hours.",
+"label": "Fraudulent",
+"scenario": "Fake background verification",
+"scam_type": "Verification fee"
+},
+{
+"id": 146,
+"text": "Dear Lakshmi, the recruitment office has found a mismatch in your graduation certificate. Our verification partner can correct the record for ₹2,400. Payment is required today to keep your offer active.",
+"label": "Fraudulent",
+"scenario": "Fake document verification",
+"scam_type": "Document verification fee"
+},
+{
+"id": 147,
+"text": "Hello Yash, please attend the final HR interview using this private video link. Before joining, fill in your bank account number and debit card information on the candidate verification page.",
+"label": "Fraudulent",
+"scenario": "Fake video interview",
+"scam_type": "Fake interview"
+},
+{
+"id": 148,
+"text": "Hi Aarti, I am the senior HR manager handling urgent hiring for our Pune office. Your resume is strong enough for direct selection. There is no need for another interview; just complete the employee registration payment.",
+"label": "Fraudulent",
+"scenario": "Fake HR impersonation",
+"scam_type": "Fake HR"
+},
+{
+"id": 149,
+"text": "Dear Rohit, our recruitment firm works directly with MNC hiring managers. We can guarantee an offer within 48 hours if you pay our candidate service fee of ₹8,200. Seats in this week's batch are limited.",
+"label": "Fraudulent",
+"scenario": "Fake recruitment agency",
+"scam_type": "Guaranteed placement"
+},
+{
+"id": 150,
+"text": "Congratulations Isha, you have been selected for our three-month AI internship with a stipend of ₹35,000. There is no interview because your academic record qualifies you automatically. Pay ₹1,499 for the internship registration certificate.",
+"label": "Fraudulent",
+"scenario": "Fake internship",
+"scam_type": "Registration fee"
+},
+{
+"id": 151,
+"text": "Campus Hiring Update: students shortlisted for the IT support drive must submit ₹1,800 to the placement representative for employer verification. Names will be removed from the shortlist if payment is not received by 4 PM.",
+"label": "Fraudulent",
+"scenario": "Fake campus recruitment",
+"scam_type": "Placement fee"
+},
+{
+"id": 152,
+"text": "Dear Farhan, attached is the final appointment document for the role of Business Analyst. Your annual package is ₹14.4 lakh. To validate the letter, pay the ₹2,100 document authentication charge and send the receipt to our HR desk.",
+"label": "Fraudulent",
+"scenario": "Fake appointment letter",
+"scam_type": "Document fee"
+},
+{
+"id": 153,
+"text": "Hi Nisha, we have reviewed your LinkedIn profile and selected you for the Senior Data Scientist position with a package of ₹28 lakh. No technical round is required. Please confirm your acceptance by paying the refundable onboarding amount.",
+"label": "Fraudulent",
+"scenario": "Professional LinkedIn scam",
+"scam_type": "Selected without interview"
+},
+{
+"id": 154,
+"text": "Hello Kunal, this is a guaranteed placement opportunity for graduates. Once you submit the candidate processing fee, our partner company will issue an offer without further screening. Applications are closing tonight.",
+"label": "Fraudulent",
+"scenario": "Guaranteed job scam",
+"scam_type": "Guaranteed job"
+},
+{
+"id": 155,
+"text": "Dear Shreya, work remotely from anywhere in India and earn up to ₹90,000 per month as a customer relationship executive. We require no experience. Pay ₹2,300 for the home-office activation package before starting.",
+"label": "Fraudulent",
+"scenario": "Work-from-home recruitment scam",
+"scam_type": "Unrealistic salary"
+},
+{
+"id": 156,
+"text": "Hi Aditya, we are hiring students for a flexible evening data-entry project. You can earn ₹40,000 monthly working two hours per day. To unlock the first batch of assignments, transfer ₹499 to the coordinator.",
+"label": "Fraudulent",
+"scenario": "Part-time data-entry scam",
+"scam_type": "Activation fee"
+},
+{
+"id": 157,
+"text": "Hello Priya, your employee account has been created. Please pay ₹3,600 as an advance for your workstation and ID card. The company will reimburse the amount after your first month.",
+"label": "Fraudulent",
+"scenario": "Fake onboarding",
+"scam_type": "Advance payment"
+},
+{
+"id": 158,
+"text": "Dear Aman, interview confirmation requires payment of ₹1,050 through UPI. Once the transaction is complete, you will receive a video interview link and recruiter contact number.",
+"label": "Fraudulent",
+"scenario": "Fake interview scheduling",
+"scam_type": "Payment before interview"
+},
+{
+"id": 159,
+"text": "Hi Divya, your joining date is tomorrow. To avoid cancellation, send ₹2,499 before 7 PM for the employee verification package. Once received, HR will issue your joining code.",
+"label": "Fraudulent",
+"scenario": "Urgent joining scam",
+"scam_type": "Payment before joining"
+},
+{
+"id": 160,
+"text": "Hello Naveen, we found your profile on a job portal and have an immediate opening in Delhi. Contact our WhatsApp recruiter and send your Aadhaar, PAN and bank account number for fast-track selection.",
+"label": "Fraudulent",
+"scenario": "WhatsApp identity theft scam",
+"scam_type": "Aadhaar misuse"
+},
+{
+"id": 161,
+"text": "Dear Meena, join our Telegram channel for daily verified job vacancies. Selected members receive direct company offers. To unlock the premium hiring list, pay ₹999 to the channel administrator.",
+"label": "Fraudulent",
+"scenario": "Telegram recruitment scam",
+"scam_type": "Premium placement fee"
+},
+{
+"id": 162,
+"text": "Hi Arjun, this is the recruitment team at TCS India Careers. Your profile has been approved for a remote developer position. Please pay ₹1,700 for employee background screening using the link in this message.",
+"label": "Fraudulent",
+"scenario": "Company impersonation",
+"scam_type": "Fake company impersonation"
+},
+{
+"id": 163,
+"text": "Dear Ayesha, your application has reached final approval. We need your response within one hour because the vacancy will be offered to another candidate. Complete the refundable deposit immediately to keep your selection active.",
+"label": "Fraudulent",
+"scenario": "High-pressure recruitment scam",
+"scam_type": "Urgency pressure"
+},
+{
+"id": 164,
+"text": "Hello Vikram, your profile was shortlisted through our careers portal. The email address below is used for recruitment verification. Please pay ₹1,299 to download your interview call letter. The link will expire at midnight.",
+"label": "Fraudulent",
+"scenario": "Lookalike recruitment email",
+"scam_type": "Fake company-domain-looking email"
+},
+{
+"id": 165,
+"text": "Congratulations Pooja, you have been selected for the accounts executive role without an interview. To activate your offer, complete the employee registration form and pay the stated processing amount.",
+"label": "Fraudulent",
+"scenario": "Fake direct selection",
+"scam_type": "No interview required"
+},
+{
+"id": 166,
+"text": "Dear Rakesh, your appointment letter is ready and has been digitally signed. Before we release the PDF, a refundable courier security amount of ₹1,650 must be paid. Please complete it within two hours.",
+"label": "Fraudulent",
+"scenario": "Fake offer letter",
+"scam_type": "Security deposit"
+},
+{
+"id": 167,
+"text": "Hi Swati, our agency has one remaining vacancy for a banking operations role in Pune. We can arrange direct placement if you pay ₹4,500 today. Once the payment is confirmed, we will share the employer's HR contact.",
+"label": "Fraudulent",
+"scenario": "Fake recruitment agency",
+"scam_type": "Placement fee"
+},
+{
+"id": 168,
+"text": "Hello Mohit, the company has approved your remote internship at ₹30,000 per month. Your academic profile qualifies you for direct selection. Send ₹1,200 to cover the mandatory internship ID and onboarding package.",
+"label": "Fraudulent",
+"scenario": "Fake internship selection",
+"scam_type": "Joining fee"
+},
+{
+"id": 169,
+"text": "Dear Ritu, your campus placement registration is pending. The employer has asked all shortlisted candidates to pay ₹750 for a background screening certificate before attending the final interview.",
+"label": "Fraudulent",
+"scenario": "Fake campus recruitment",
+"scam_type": "Background verification fee"
+},
+{
+"id": 170,
+"text": "Hi Sameer, your offer package has been approved at ₹11.5 lakh per annum. Please pay ₹2,750 for mandatory document stamping. The amount will be refunded after your first salary cycle.",
+"label": "Fraudulent",
+"scenario": "Fake offer processing",
+"scam_type": "Refundable deposit"
+},
+{
+"id": 171,
+"text": "Dear Kavya, please confirm your candidate identity by sharing the OTP sent to your mobile. Our HR system needs the code to validate your application before the interview can be scheduled.",
+"label": "Fraudulent",
+"scenario": "Fake candidate verification",
+"scam_type": "OTP request"
+},
+{
+"id": 172,
+"text": "Hello Sandeep, to process your first salary, HR requires your UPI PIN and bank verification code. Please provide both during the onboarding call so the payroll account can be activated.",
+"label": "Fraudulent",
+"scenario": "Fake payroll setup",
+"scam_type": "UPI PIN request"
+},
+{
+"id": 173,
+"text": "Hi Nandita, your recruitment account needs card verification. Please send your debit card number, expiry date and CVV to our payroll executive. These details are required before your joining letter is generated.",
+"label": "Fraudulent",
+"scenario": "Fake payroll verification",
+"scam_type": "CVV request"
+},
+{
+"id": 174,
+"text": "Dear Raj, the HR portal is temporarily unavailable. To avoid delaying your joining, send your internet banking credentials to the recruitment coordinator. We will manually complete the employee registration.",
+"label": "Fraudulent",
+"scenario": "Fake onboarding workaround",
+"scam_type": "Bank credential request"
+},
+{
+"id": 175,
+"text": "Hello Sneha, your Aadhaar details were not accepted by our recruitment system. Send a new scan along with the OTP received on your phone so our verification officer can update the record.",
+"label": "Fraudulent",
+"scenario": "Fake Aadhaar verification",
+"scam_type": "Aadhaar misuse"
+},
+{
+"id": 176,
+"text": "Hi Rohan, your PAN number is required to activate the tax profile associated with your offer. Please send the PAN image and the verification code from the SMS to the HR WhatsApp number.",
+"label": "Fraudulent",
+"scenario": "Fake PAN verification",
+"scam_type": "PAN misuse"
+},
+{
+"id": 177,
+"text": "Dear Pavan, your police and background verification report has been placed on hold. Pay ₹1,475 for immediate clearance and your employment file will be marked verified today.",
+"label": "Fraudulent",
+"scenario": "Fake background check",
+"scam_type": "Verification fee"
+},
+{
+"id": 178,
+"text": "Hello Priyanka, one document in your employment file requires certification. Our authorized verification officer can complete this for ₹1,950. Payment must be made before the final offer is issued.",
+"label": "Fraudulent",
+"scenario": "Fake document verification",
+"scam_type": "Document verification fee"
+},
+{
+"id": 179,
+"text": "Hi Harish, your online interview will begin shortly. Please open the candidate verification page and enter your Aadhaar number, bank account information and card details before joining the video call.",
+"label": "Fraudulent",
+"scenario": "Fake interview portal",
+"scam_type": "Fake interview"
+},
+{
+"id": 180,
+"text": "Dear Anjali, I am the HR head managing urgent recruitment for our Noida office. Your resume has been approved directly by management, so no further interview is necessary. Please pay the employee ID activation charge to proceed.",
+"label": "Fraudulent",
+"scenario": "Fake HR executive",
+"scam_type": "Fake HR"
+},
+{
+"id": 181,
+"text": "Hello Deepak, our placement partner can secure a software developer position for you at a leading company. We have only five candidate slots remaining. Submit ₹9,000 today and your guaranteed offer will be processed.",
+"label": "Fraudulent",
+"scenario": "Guaranteed placement agency",
+"scam_type": "Guaranteed placement"
+},
+{
+"id": 182,
+"text": "Hi Mansi, you have been selected for a paid digital marketing internship based only on your resume. No interview is needed. Pay ₹850 for the official internship registration and your joining kit will be emailed.",
+"label": "Fraudulent",
+"scenario": "Fake internship",
+"scam_type": "No interview required"
+},
+{
+"id": 183,
+"text": "Campus Recruitment Team: shortlisted students must complete company registration by paying ₹1,100 through the coordinator's UPI account. Payment must be completed before the assessment link is released.",
+"label": "Fraudulent",
+"scenario": "Fake campus recruitment",
+"scam_type": "UPI payment request"
+},
+{
+"id": 184,
+"text": "Dear Varsha, attached is the appointment letter for your selected role. The salary is ₹9.6 lakh per annum. To validate the document, transfer ₹1,499 to the HR account and send the payment receipt with your signature.",
+"label": "Fraudulent",
+"scenario": "Fake appointment letter",
+"scam_type": "Payment before joining"
+},
+{
+"id": 185,
+"text": "Hello Nitin, we are hiring customer service agents for a work-from-home project. Earn ₹75,000 monthly with flexible hours and no prior experience. The only requirement is a refundable device activation deposit of ₹3,500.",
+"label": "Fraudulent",
+"scenario": "Work-from-home scam",
+"scam_type": "Unrealistic salary"
+},
+{
+"id": 186,
+"text": "Hi Aakash, earn up to ₹50,000 per month by completing simple surveys after college. Our team can activate your account today once you transfer ₹399 for the starter package.",
+"label": "Fraudulent",
+"scenario": "Part-time earnings scam",
+"scam_type": "Activation fee"
+},
+{
+"id": 187,
+"text": "Dear Reena, your job profile is approved. We require an advance of ₹2,650 for the company ID card, laptop insurance and courier. The full amount will be adjusted against your first month's salary.",
+"label": "Fraudulent",
+"scenario": "Fake onboarding expenses",
+"scam_type": "Advance payment"
+},
+{
+"id": 188,
+"text": "Hello Imran, your interview invitation is ready. Please pay the candidate verification amount through UPI before 3 PM. After confirmation, our interviewer will send the video meeting details.",
+"label": "Fraudulent",
+"scenario": "Fake interview invitation",
+"scam_type": "Payment before interview"
+},
+{
+"id": 189,
+"text": "Hi Tanya, your joining is scheduled for tomorrow, but HR needs a refundable security deposit of ₹4,200 to release your employee access card. Complete the payment today or your joining date will be postponed.",
+"label": "Fraudulent",
+"scenario": "Fake joining process",
+"scam_type": "Security deposit"
+},
+{
+"id": 190,
+"text": "Dear Kiran, we found your resume on a job portal and have an immediate opening for a banking associate. Send your Aadhaar, PAN, bank account number and a selfie to our WhatsApp recruiter for direct selection.",
+"label": "Fraudulent",
+"scenario": "WhatsApp identity harvesting",
+"scam_type": "Aadhaar misuse"
+},
+{
+"id": 191,
+"text": "Telegram Hiring Desk: applicants selected for today's premium vacancies must contact the administrator privately. A small membership payment is required before company details and interview schedules are disclosed.",
+"label": "Fraudulent",
+"scenario": "Telegram job scam",
+"scam_type": "Placement fee"
+},
+{
+"id": 192,
+"text": "Hello Varun, this is the hiring team from Flipkart Careers India. Your profile qualifies for a remote operations role paying ₹72,000 monthly. Please pay ₹1,600 for background screening to receive your offer letter.",
+"label": "Fraudulent",
+"scenario": "Impersonated employer",
+"scam_type": "Fake company impersonation"
+},
+{
+"id": 193,
+"text": "Dear Shalini, final selection is almost complete and your profile is currently reserved. Respond within 30 minutes and submit the required processing amount, otherwise the vacancy will be offered to the next candidate.",
+"label": "Fraudulent",
+"scenario": "Pressure-based recruitment scam",
+"scam_type": "Urgency pressure"
+},
+{
+"id": 194,
+"text": "Hi Manoj, your application has been approved by our recruitment system. Visit our hiring portal to download the interview letter. A ₹999 processing charge is required and the payment page expires tonight.",
+"label": "Fraudulent",
+"scenario": "Fake recruitment portal",
+"scam_type": "Fake company-domain-looking email"
+},
+{
+"id": 195,
+"text": "Congratulations Neelam, management has selected you directly for the HR Executive position. There is no interview stage for this vacancy. Pay the candidate activation charge and your joining date will be confirmed.",
+"label": "Fraudulent",
+"scenario": "Direct selection scam",
+"scam_type": "No interview required"
+},
+{
+"id": 196,
+"text": "Dear Ajay, your appointment document has been approved. To receive the physical offer package, pay ₹1,250 as a refundable courier security amount. We must receive the payment before dispatch.",
+"label": "Fraudulent",
+"scenario": "Fake offer dispatch",
+"scam_type": "Refundable deposit"
+},
+{
+"id": 197,
+"text": "Hello Riya, our agency has direct access to hiring managers at several IT companies. We can guarantee placement for experienced candidates who pay the ₹6,999 registration fee today. Your preferred employer can be discussed afterward.",
+"label": "Fraudulent",
+"scenario": "Fake recruitment agency",
+"scam_type": "Guaranteed job"
+},
+{
+"id": 198,
+"text": "Hi Suman, you have been selected for a six-month work-from-home internship with a monthly stipend of ₹40,000. No interview is necessary. Please pay ₹1,300 for the official training and onboarding certificate.",
+"label": "Fraudulent",
+"scenario": "Fake internship",
+"scam_type": "Training fee"
+},
+{
+"id": 199,
+"text": "Dear Rohit, your campus application has been accepted for the final hiring round. Before the company releases the assessment link, every candidate must pay a refundable ₹900 verification amount through the placement coordinator.",
+"label": "Fraudulent",
+"scenario": "Fake campus assessment",
+"scam_type": "Refundable deposit"
+},
+{
+"id": 200,
+"text": "Hello Pooja, congratulations on your immediate selection for the Customer Support role. Your salary will be ₹58,000 per month and joining is tomorrow. No interview is required; simply complete the UPI payment for employee registration before 7 PM.",
+"label": "Fraudulent",
+"scenario": "High-salary immediate joining scam",
+"scam_type": "UPI payment request"
+}
+]

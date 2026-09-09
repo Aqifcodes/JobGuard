@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>JobGuard — Job Opportunities</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+    <main class="jobs-page">
+
+        <!-- =====================================================
+             HEADER
+        ====================================================== -->
+
+        <section class="jobs-header">
+
+            <span class="section-badge">
+                JOB DISCOVERY
+            </span>
+
+
+            <h1>
+                Opportunities for you
+            </h1>
+
+
+            <p id="searchSummary"></p>
+
+        </section>
+
+
+        <!-- =====================================================
+             JOB RESULTS
+        ====================================================== -->
+
+        <section
+            id="jobsContainer"
+            class="jobs-container"
+        ></section>
+
+
+        <!-- =====================================================
+             NO JOBS
+        ====================================================== -->
+
+        <section
+            id="noJobs"
+            class="no-jobs"
+            hidden
+        >
+
+            <h2>
+                No matching jobs found
+            </h2>
+
+
+            <p>
+                Try another role or location.
+            </p>
+
+
+            <button
+                type="button"
+                onclick="window.history.back()"
+                class="primary-button"
+            >
+                Search Again
+            </button>
+
+        </section>
+
+
+        <!-- =====================================================
+             DISCLAIMER
+        ====================================================== -->
+
+        <section class="jobs-disclaimer">
+
+            <p>
+
+                JobGuard displays opportunities retrieved from external
+                job sources. Always review the original listing before
+                applying.
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <script src="{{ url_for('static', filename='js/job-results.js') }}"></script>
+
+</body>
+
+</html>
